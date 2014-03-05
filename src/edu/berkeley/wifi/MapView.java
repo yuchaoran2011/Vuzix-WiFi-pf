@@ -95,7 +95,7 @@ public class MapView extends View {
 	    this.gotPosition = true;
 	    mPaint.setARGB(255, 000, 000, 255);
 	    if (this.gotPosition)
-	    	canvas.drawCircle(this.pos_x+15.0f, this.pos_y+5.0f, 0.5f, mPaint);
+	    	canvas.drawCircle(this.pos_x*0.2f+10.0f, this.pos_y*0.2f+45.0f, 0.3f, mPaint);
 	  
 	    
 	    }
